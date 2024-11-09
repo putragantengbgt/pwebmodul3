@@ -1,0 +1,29 @@
+.btn {
+  padding: 10px 20px;
+  background-color: coral;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.btn:hover {
+  background-color: darkred;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin-top: 20-x;
+  animation: slide 2s infinite;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
